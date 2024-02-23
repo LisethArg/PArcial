@@ -1,0 +1,41 @@
+.fixed-title{
+ top: 0; /* Coloca el título en la parte superior */
+    left: 0; /* Coloca el título en la esquina izquierda */
+    width: 100%; /* Ocupa todo el ancho horizontal disponible */
+    background-color: #00a799; /* Color de fondo azul */
+    color: #070707; /* Color del texto blanco */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de la fuente */
+    text-align: center; /* Centra el texto horizontalmente */
+
+}
+
+.box{
+    background-color: rgb(245, 221, 3);
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right:5px;
+   
+    font-size: 110%;
+
+    border:0.5px solid black;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    margin-top: 480px; /* Espacio entre el contenido y el pie de página */
+    text-align: center;
+    background-color: #1a462e; /* Color de fondo */
+    color: #ffe600;
+    padding: 10px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye el padding en el ancho */
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 100%; /* Ocupa todo el ancho horizontal disponible */
+}
